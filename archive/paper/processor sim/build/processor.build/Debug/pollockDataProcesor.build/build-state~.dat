@@ -1,0 +1,140 @@
+TpollockDataProcesor
+v7
+r0
+t317683886.818753
+cCheck dependencies
+cCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/main.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/vessel.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/vessel.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator_tools.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator_tools.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd exe/pollockDataProcesor normal i386
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/main.o
+t1295991085
+s155980
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/pollockDataProcesor.LinkFileList
+c000000004D3F412B0000000000000286
+t1295991083
+s646
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator.o
+t1295991086
+s616020
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator_tools.o
+t1257712526
+s46408
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/vessel.o
+t1257709686
+s117264
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp
+c000000004935B09E0000000000000222
+t1228255390
+s546
+i<fstream>
+i"vessel.h"
+i"simulator.h"
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp
+c000000004D3F412A000000000000A14F
+t1295991082
+s41295
+i"simulator.h"
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.h
+c000000004D3F3F380000000000000C43
+t1295990584
+s3139
+i<string>
+i<vector>
+i<iostream>
+i<fstream>
+i<map>
+i"vessel.h"
+i"simulator_tools.h"
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator_tools.cpp
+c000000004AF22C960000000000001212
+t1257385110
+s4626
+i"simulator_tools.h"
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator_tools.h
+c000000004AF72B7200000000000002A8
+t1257712498
+s680
+i<string>
+i<vector>
+i"math.h"
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/vessel.cpp
+c000000004935A08800000000000002A4
+t1228251272
+s676
+i"vessel.h"
+
+N/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/vessel.h
+c000000004AF66F60000000000000049D
+t1257664352
+s1181
+i<string>
+i<vector>
+
+N/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+Nexe/pollockDataProcesor
+t1295991086
+s267040
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317683883#317683883#0(0"0(0#1#0"28710924367954032#0"0#
+
+CCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/main.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s317683883.741364
+e317683885.173135
+r1
+xCompileC
+xbuild/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/main.o
+x/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp317683883#317683885#0(0"0(0#0#84"/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp7956004991933113344#1589"    cd "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-generated-files.hmap" "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-own-target-headers.hmap" "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-all-target-headers.hmap" -iquote "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-project-headers.hmap" -Fexe -Iexe/include "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/DerivedSources/i386" "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/DerivedSources" -c "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/main.cpp" -o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s317683883.796716
+e317683886.105218
+r1
+xCompileC
+xbuild/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator.o
+x/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp317683883#317683886#0(0"0(0#0#89"/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp7521983764268409856#1599"    cd "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-generated-files.hmap" "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-own-target-headers.hmap" "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-all-target-headers.hmap" -iquote "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/pollockDataProcesor-project-headers.hmap" -Fexe -Iexe/include "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/DerivedSources/i386" "-I/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/DerivedSources" -c "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator.cpp" -o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator.o"0#
+
+CCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator_tools.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/simulator_tools.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/vessel.o "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/vessel.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd exe/pollockDataProcesor normal i386
+s317683886.105444
+e317683886.818677
+r1
+xLd
+xexe/pollockDataProcesor
+xnormal
+xi386
+lSLF07#2@28"Link exe/pollockDataProcesor317683886#317683886#0(0"0(0#0#0"8612993760#361"    cd "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim"    /Developer/usr/bin/g++-4.2 -arch i386 -Lexe -Fexe -filelist "/Users/hye/work/sugilab/chinook bycatch/chinook bycatch paper/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/pollockDataProcesor.LinkFileList" -o exe/pollockDataProcesor0#
+

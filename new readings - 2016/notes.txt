@@ -1,0 +1,18 @@
+Chinook AEQ analysis (Ianelli and Stram, 2014)
+
+In response to heightened concerns over all sources of Chinook salmon mortality, and due to high historical bycatch that has occurred in some years (Figure 2), the Council took action to reduce bycatch in the pollock fishery by imposing (in 2011) revised management measures via Amendment 91 to the Bering Sea Aleutian Islands Groundfish Fishery Management Plan (NMFS, 2010). Previous bycatch restrictions for Chinook salmon had been addressed through the time and area closures noted above (Stram and Ianelli 2009) but these measures did not serve to minimize bycatch in all years. Consequently, new measures were developed which imposed limits on the Chinook salmon bycatch by fishery sector and season. The measures set limits to close fishing by sector and season but also include some flexibility by including a performance standard in combination with the creation of industry-proposed incentive programs to further reduce bycatch below the performance standard. The plans, as reviewed by the Council, are designed to increase incentives for vessels to lower bycatch rates even in years when salmon encounters were low.
+
+Due to continued concerns with extremely low returns to western Alaskan Chinook stocks, and the genetic information regarding high proportions of the bycatch consisting of these stocks (Guthrie et al, 2014; Guthrie et al, 2013; Guthrie et al., 2012; Guthrie and Wilmot, 2004; Myers et al., 2004) 
+
+Genetic information indicates that the majority (~65%) of the Chinook salmon caught in the Bering Sea pollock fishery originate from a single geographic region encompassing several western Alaskan rivers, including a genetically distinct group from the Canadian portion of the Yukon River (Myers and Rogers, 1983, 1988; Guthrie and Wilmot, 2004; Myers et al., 2004; Guyon and Guthrie, 2010; Guthrie et al., 2012, 2013, 2014). Recent results from the 2012 pollock fishery are consistent with these findings with the aggregate Coastal Western Alaska stocks dominating the sample set (63%) with smaller contributions from North Alaska Peninsula (11%), British Columbia (10%), and West Coast U.S. (OR/CA/WA) (7%) stocks (Guthrie et al., 2014). For chum salmon, the pollock fishery bycatch stock of origin is dominated by Asian-origin stocks (~60%) based upon 2012 results; see Vulstek et al, 2014) with smaller contributions from the Eastern Gulf of Alaska/Pacific Northwest group (18%), western Alaska (14%), Upper/middle Yukon (7%) and Southwest Alaska (2%). While the genetics cannot differentiate hatchery- origin fish from wild Asian chum salmon, given the high proportion of Pacific Rim hatchery-released chum from Japan (with hatchery releases form Asian comprising over 78% of total Pacific Rim releases in 2010; NPAFC), much of the Asian origin chum observed in the bycatch is likely to be of Asian hatchery-origin.
+
+
+*** increased observer coverage also helps to monitor bycatch of other affected species.
+
+*** reduction of performance standard by 25% (35,693 total) or 60% (19,036) total
+**** could occur in just B season
+**** as determined by ADF&G assessment of indexed run strength
+
+
+
+

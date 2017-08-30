@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+
+% packages
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{newcent}
+\usepackage{mathcomp}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+
+% margins
+\setlength\topmargin{0in}
+\setlength\oddsidemargin{0in}
+\setlength\evensidemargin{0in}
+
+% header
+\setlength\headheight{0.75in}
+\setlength\headsep{0.00in}
+
+% main text box
+\setlength\textheight{8.25in}
+\setlength\textwidth{6.5in}
+
+% paragraph settings
+\setlength\parindent{0.0in}
+\setlength\parskip{0.15in}
+
+% no section number display
+\makeatletter
+\def\@seccntformat#1{}
+\makeatother
+
+\begin{document}
+
+\subsection{An analysis of the Financial Incentive Plan (FIP)}
+
+An incentive plan that creates reward and penalties based on the “undercatch” quantity relies on the calculation of undercatch as an incentive measure.  In the FIP plan, vessels must pay in a monetary amount into a Bycatch Incentive Fund (BIF) at the ratio of $\$0.01$ per pound of Pollock harvested.  The BIF is then redistributed to vessels at the end of the year by dividing the BIF by the total amount of undercatch.  The incentive to reduce bycatch is then dependent upon how reducing bycatch affects the redistribution of the BIF at the end of the year.  Under most situations, vessels may be expected to harvest their complete Pollock allocations, making BIF a fixed amount.  Thus, the incentive will be tied to the computation of undercatch.
+
+Unadjusted undercatch is computed as $U_j = C_j \left( R - BR_j \right)$ , where $U_j$ is the undercatch quantity for vessel $j$, $C_j$ is the Pollock catch of vessel $j$, $R$ is the performance reference, and $BR_j$ is the bycatch rate of vessel $j$.  The performance reference is defined as $2.5$ times the median bycatch performance of all vessels: $R = 2.5 \cdot BR_m$.  The bycatch rate of vessel $j$ can also be defined in terms of its actual bycatch, $S_j$, and its Pollock catch: $\displaystyle BR_j = \frac{S_j}{C_j}$.  Thus, we can reformulate the unadjusted undercatch as: $U_j = C_j \cdot 2.5 \cdot BR_m - S_j$.  Thus, any given vessel’s undercatch can be increased by: (1) increasing the Pollock catch, (2) increasing the median bycatch rate, (3) decreasing Chinook bycatch, or some combination of those three factors.
+
+Undercatch is adjusted such that the "marginal value" is somewhat equalized among vessels/companies of different sizes: $AdjU_i = ((R - BR_m) C_i) + (1 / (1 - (U_i / \sum{U_i})) * (U_i - (R - BR_m) C_i)$.  If we let $\displaystyle \alpha = \frac{1}{1 - \frac{U_i}{\sum{U_i}}}$ represent the correctional factor for vessel/company size, the formula can be rewritten: $AdjU_i = C_i \left(1.5 + \alpha_i \right) BR_m - \alpha S_i$.  For an infinitesimally small vessel, $\alpha_i = 0$, which makes the adjusted undercatch equal to the unadjusted undercatch.  Larger vessels have a greater proportion of undercatch, so $\alpha_i$ is larger, which tends to magnify the effect for larger vessels as well as lowering the effective performance reference: adjusted undercatch, $AdjU_i = 0$ when $\displaystyle BR_i = \frac{S_i}{C_i} = \left(1 + \frac{1.5}{\alpha_i} \right) BR_m$.
+
+One problem with the incentive structure for this plan is that the incentives depend on the undercatch calculation.  Calculating marginal value as the change in incentive payment for catching $1$ more or $1$ fewer Chinook salmon as bycatch accurately captures the incentive for vessels to reduce bycatch.  One requirement of Inter-cooperative agreements (ICA), as specified by the C-2 Motion PPA, is "An ICA must provide incentive(s) for each vessel to avoid salmon bycatch under any condition of pollock and salmon abundance in all years."  While this plan would provide incentives under all conditions of Chinook abundance, it does not ensure that incentives are stronger in years of low Chinook abundance.  In the attached excel file, marginal values are computed for two sample fleets.  Both fleets experience the same total amount of bycatch (which may be taken as a proxy for Chinook abundance).  However, the marginal value of bycatch varies, almost by a factor of 2!  What this indicates is that while incentives will exist for reducing bycatch at all levels of Chinook abundance, these incentives may not be strongest when Chinook are rare and bycatch is exceptionally harmful to Chinook stocks.
+
+\subsection{An analysis of the Salmon Savings Incentive Plan (SSIP)}
+
+
+
+
+
+
+
+\end{document}

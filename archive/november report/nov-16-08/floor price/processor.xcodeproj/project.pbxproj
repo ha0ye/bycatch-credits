@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1466F3870ECCCBC700247D76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1466F3860ECCCBC700247D76 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1466F35F0ECCCADC00247D76 /* pollockDataProcesor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pollockDataProcesor; sourceTree = BUILT_PRODUCTS_DIR; };
+		1466F3860ECCCBC700247D76 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1466F35D0ECCCADC00247D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1466F34B0ECCCAB800247D76 = {
+			isa = PBXGroup;
+			children = (
+				1466F3860ECCCBC700247D76 /* main.cpp */,
+				1466F3600ECCCADC00247D76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1466F3600ECCCADC00247D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1466F35F0ECCCADC00247D76 /* pollockDataProcesor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1466F35E0ECCCADC00247D76 /* pollockDataProcesor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1466F3640ECCCADD00247D76 /* Build configuration list for PBXNativeTarget "pollockDataProcesor" */;
+			buildPhases = (
+				1466F35C0ECCCADC00247D76 /* Sources */,
+				1466F35D0ECCCADC00247D76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pollockDataProcesor;
+			productName = pollockDataProcesor;
+			productReference = 1466F35F0ECCCADC00247D76 /* pollockDataProcesor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1466F34D0ECCCAB800247D76 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1466F3500ECCCAB800247D76 /* Build configuration list for PBXProject "processor" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 1466F34B0ECCCAB800247D76;
+			productRefGroup = 1466F3600ECCCADC00247D76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1466F35E0ECCCADC00247D76 /* pollockDataProcesor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1466F35C0ECCCADC00247D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1466F3870ECCCBC700247D76 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1466F34E0ECCCAB800247D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		1466F34F0ECCCAB800247D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		1466F3620ECCCADD00247D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = exe;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = pollockDataProcesor;
+			};
+			name = Debug;
+		};
+		1466F3630ECCCADD00247D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = exe;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = pollockDataProcesor;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1466F3500ECCCAB800247D76 /* Build configuration list for PBXProject "processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1466F34E0ECCCAB800247D76 /* Debug */,
+				1466F34F0ECCCAB800247D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1466F3640ECCCADD00247D76 /* Build configuration list for PBXNativeTarget "pollockDataProcesor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1466F3620ECCCADD00247D76 /* Debug */,
+				1466F3630ECCCADD00247D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1466F34D0ECCCAB800247D76 /* Project object */;
+}

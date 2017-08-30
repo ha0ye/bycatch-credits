@@ -1,0 +1,5 @@
+ffffffffffffffffffffffffffffffff 45c0540232413629e414a8661c37bca9 ffffffffffffffffffffffffffffffff 544484 /Users/hye/code/pollock/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator.o
+ffffffffffffffffffffffffffffffff a129954c7212a42358f94925074c8f7d ffffffffffffffffffffffffffffffff 228180 /Users/hye/code/pollock/processor sim/exe/pollockDataProcesor
+00000000000005fe00000000000010ba 93bc200dffa6fdb445e44c1266046d6b ffffffffffffffffffffffffffffffff 46408 /Users/hye/code/pollock/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/simulator_tools.o
+0000000003c693980000000000000622 1364ff4de53001efe645390fc51e1082 ffffffffffffffffffffffffffffffff 117232 /Users/hye/code/pollock/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/vessel.o
+000000004934b6510000000000000acf cbdc6ec47aff6aa96aa5de00991404ea ffffffffffffffffffffffffffffffff 99072 /Users/hye/code/pollock/processor sim/build/processor.build/Debug/pollockDataProcesor.build/Objects-normal/i386/main.o

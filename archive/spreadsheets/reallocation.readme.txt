@@ -1,0 +1,20 @@
+In the "reallocation.revenue_loss.xls" excel file, there are three sheets that deal with revenue loss;
+
+'revenue loss'
+'revenue loss (2)'
+'revenue loss opt-out'
+
+These three sheets use data from the catcher vessel (inshore) fleet from 2003-2007.  (Only the vessels which fished each year were counted.)
+
+Reallocation is done according to the 1/3, 1/3, 1/3 rule, where the last 1/3 reflects a vessel's fishing behavior in a given year.
+
+This calculation is done by computing a z-score (relative ranking: 0 = average) for each vessel, converting to a cumulative (percentile: 0.5 = average) p-value, and then weighting the p-value to derive a q-value (q = alpha * p + beta) that is the last 1/3 portion of reallocation.
+
+alpha and beta are set in the top-left corner, and the changes propagate throughout the sheet.  Note that if no reallocation is to be done, alpha should be set to 0 and beta to 1, as in the 'revenue loss opt-out' sheet.
+
+The amount of unused pollock allocation is computed by considering a vessel to have a constant bycatch rate throughout the season.  For example, if a vessel's actual bycatch were twice its number of credits, we assume it would only be able to fish half of its pollock allocation.  The unharvested pollock is then converted into a revenue loss by multiplying by the pollock price per lb, also set in the top-left corner.
+
+The next two sheets represent calculations of relative bycatch rates relative to pollock harvest.  We use pollock harvest % as a stand-in for vessel size.  The graph shows the distribution of relative bycatch rates.  The other sheet is for calculation of the fit.
+
+'variance (2)'
+'variance fitting 2'
